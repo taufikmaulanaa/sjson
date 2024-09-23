@@ -20,7 +20,8 @@ TODO: Write a description here
 require "sjson"
 ```
 
-TODO: Write usage instructions here
+SJSON.stringToJson(str)
+SJSON.hastToString(hash)
 
 ## Development
 
