@@ -4,8 +4,8 @@ module SJSON
   VERSION = "0.1.0"
 
   def self.stringToJson(str : String)
-    hash = stringToHash(str)
-    hash.to_json
+    json = %(#{str})
+    JSON.parse(json)
   end
 
   def self.stringToHash(str : String)
